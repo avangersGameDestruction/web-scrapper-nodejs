@@ -1,19 +1,25 @@
 {
-  "name": "web-scrapper-nodejs",
-  "version": "1.0.0",
-  "description": "simple web scrapper",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/avangersKinkyClient/web-scrapper-nodejs.git"
-  },
-  "author": "avangers",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/avangersKinkyClient/web-scrapper-nodejs/issues"
-  },
-  "homepage": "https://github.com/avangersKinkyClient/web-scrapper-nodejs#readme"
+    "name": "web-scrapper-nodejs",
+    "version": "1.0.0",
+    "description": "simple web scrapper",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/avangersKinkyClient/web-scrapper-nodejs.git"
+    },
+    "author": "avangers",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/avangersKinkyClient/web-scrapper-nodejs/issues"
+    },
+    "homepage": "https://github.com/avangersKinkyClient/web-scrapper-nodejs#readme",
+    "dependencies": {
+        "axios": "^0.22.0",
+        "cheerio": "^1.0.0-rc.10",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.13"
+    }
 }
