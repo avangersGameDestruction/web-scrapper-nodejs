@@ -1,0 +1,19 @@
+{
+  "name": "web-scrapper-nodejs",
+  "version": "1.0.0",
+  "description": "simple web scrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avangersKinkyClient/web-scrapper-nodejs.git"
+  },
+  "author": "avangers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avangersKinkyClient/web-scrapper-nodejs/issues"
+  },
+  "homepage": "https://github.com/avangersKinkyClient/web-scrapper-nodejs#readme"
+}
